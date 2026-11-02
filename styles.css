@@ -71,6 +71,24 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+/* Títulos: base común (cada sección ajusta tamaño y detalles) */
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+/* Párrafos: base común */
+p {
+    margin-bottom: var(--espacio-sm);
+    line-height: 1.6;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -482,6 +500,10 @@ footer {
 
 .footer-info {
     font-size: 1.15rem;
+}
+
+.footer-info p {
+    margin-bottom: 0.25rem;
 }
 
 .footer-frase {
